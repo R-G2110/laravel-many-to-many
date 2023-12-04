@@ -1,0 +1,11 @@
+header {
+    height: 60px;
+    .btn-outline-hella {
+        color: var(--hella-green);
+        border: 1px solid var(--hella-green);
+        &:hover {
+            color: #212529;
+            background-color: var(--hella-green);
+        }
+    }
+}

@@ -1,0 +1,25 @@
+aside {
+    width: 200px;
+    height: 100%;
+    nav {
+        ul {
+            padding-left: 0;
+            list-style: none;
+            li {
+                .btn-custom {
+                    color: var(--hella-green);
+                    font-weight: 700;
+                    &:hover {
+                        color: #212529;
+                        background-color: var(--hella-green);
+                    }
+                }
+            }
+            .active a{
+                color:  #212529;
+                background-color: var(--hella-green);
+            }
+        }
+    }
+
+}

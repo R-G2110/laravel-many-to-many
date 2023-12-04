@@ -1,0 +1,28 @@
+:root {
+    --hella-green: #058B2F;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+.form-hidden {
+    width: 100%;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+
+}
